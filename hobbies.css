@@ -1,0 +1,142 @@
+body
+{
+    background:linear-gradient(to right,#5a329c,#6130b0,#763fcc,#9766e3);
+}
+
+header ul
+{
+    display:flex;
+    list-style-type: none;
+    background:#171040;
+    background:linear-gradient(to right,#171040,#1a0c6e,#3c2aa8);
+    height:40px;
+}
+header a
+{
+    color:white;
+    font-size: 22px;
+    text-decoration: none;
+}
+li
+{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+header li:nth-child(2)
+{
+    margin-left:3%;
+    margin-right:3%;
+}
+header a:hover
+{
+    font-weight: bold;
+    background:#4d3bb8;
+    border:1px solid #6e57f2;
+    border-radius:5px;
+}
+aside ul
+{
+    display:flex;
+    list-style-type: none;
+    background:#171040;
+    background:linear-gradient(to right,#8c7bab,#c1b1de,#d4c1f5);
+    height:40px;
+    margin-top:-15px;
+}
+aside a
+{
+    color:white;
+    font-size: 22px;
+    text-decoration: none;
+}
+aside li:nth-child(2)
+{
+    margin-left:3%;
+    margin-right:3%;
+}
+aside a:hover
+{
+    font-weight: bold;
+    background:#2828bd;
+    border:1px solid #3f3feb;
+    border-radius:5px;
+}
+#a3
+{
+    font-weight: bold;
+    background:#2828bd;
+    border:1px solid #3f3feb;
+    border-radius:5px;
+}
+section
+{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    gap:5px;
+}
+.grid-item-1
+{
+    background:radial-gradient(#8e27f5,#993bf7);
+    margin-top:20%;
+    border-radius:10px;
+    padding-left:10px;
+    padding-right:5px;
+}
+.grid-item-1 p
+{
+    color:white;
+    font-size: 24px;
+    text-align:center;
+}
+.grid-item-1 img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-item-2
+{
+    background:radial-gradient(#8e27f5,#993bf7);
+    margin-top:20%;
+    border-radius:10px;
+    padding-left:10px;
+    padding-right:5px;
+}
+.grid-item-2 p
+{
+    color:white;
+    font-size: 24px;
+    text-align:center;
+}
+.grid-item-2 img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+}
+.grid-item-3
+{
+    background:radial-gradient(#8e27f5,#993bf7);
+    margin-top:20%;
+    border-radius:10px;
+    padding-left:10px;
+    padding-right:5px;
+}
+.grid-item-3 p
+{
+    color:white;
+    font-size: 24px;
+    text-align:center;
+}
+.grid-item-3 img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img
+{
+    border-radius:10px;
+    box-shadow: 1px 1px;
+}
